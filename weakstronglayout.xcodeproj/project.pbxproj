@@ -14,6 +14,7 @@
 		3C64D0E121B6882F008DEC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C64D0DF21B6882F008DEC4D /* LaunchScreen.storyboard */; };
 		3C64D0E421B6882F008DEC4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C64D0E321B6882F008DEC4D /* main.m */; };
 		3C64D0EE21B6882F008DEC4D /* weakstronglayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C64D0ED21B6882F008DEC4D /* weakstronglayoutTests.m */; };
+		3C64D0FA21B6883D008DEC4D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C64D0F921B6883D008DEC4D /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3C64D0E921B6882F008DEC4D /* weakstronglayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weakstronglayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C64D0ED21B6882F008DEC4D /* weakstronglayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weakstronglayoutTests.m; sourceTree = "<group>"; };
 		3C64D0EF21B6882F008DEC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C64D0F821B6883D008DEC4D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3C64D0F921B6883D008DEC4D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				3C64D0DF21B6882F008DEC4D /* LaunchScreen.storyboard */,
 				3C64D0E221B6882F008DEC4D /* Info.plist */,
 				3C64D0E321B6882F008DEC4D /* main.m */,
+				3C64D0F821B6883D008DEC4D /* Person.h */,
+				3C64D0F921B6883D008DEC4D /* Person.m */,
 			);
 			path = weakstronglayout;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 			files = (
 				3C64D0D921B6882D008DEC4D /* ViewController.m in Sources */,
 				3C64D0E421B6882F008DEC4D /* main.m in Sources */,
+				3C64D0FA21B6883D008DEC4D /* Person.m in Sources */,
 				3C64D0D621B6882D008DEC4D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
